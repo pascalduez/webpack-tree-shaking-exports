@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -71,20 +71,13 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__A__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__B__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__C__ = __webpack_require__(3);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__A__["a"]; });
-/* unused harmony reexport B */
-/* unused harmony reexport C */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vectors__ = __webpack_require__(4);
 
 
 
-
-
-
-
-
+/* harmony default export */ __webpack_exports__["a"] = function (name) {
+  return __WEBPACK_IMPORTED_MODULE_0__vectors__[name]
+};
 
 
 /***/ }),
@@ -92,9 +85,8 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-const A = 'A'
+const A = 'AAA'
 /* harmony export (immutable) */ __webpack_exports__["a"] = A;
-
 
 
 
@@ -103,9 +95,8 @@ const A = 'A'
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-const B = 'B'
-/* unused harmony export B */
-
+const B = 'BBB'
+/* harmony export (immutable) */ __webpack_exports__["a"] = B;
 
 
 
@@ -114,9 +105,8 @@ const B = 'B'
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-const C = 'C'
-/* unused harmony export C */
-
+const C = 'CCC'
+/* harmony export (immutable) */ __webpack_exports__["a"] = C;
 
 
 
@@ -126,11 +116,30 @@ const C = 'C'
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__A__ = __webpack_require__(1);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return __WEBPACK_IMPORTED_MODULE_0__A__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__B__ = __webpack_require__(2);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "B", function() { return __WEBPACK_IMPORTED_MODULE_1__B__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__C__ = __webpack_require__(3);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "C", function() { return __WEBPACK_IMPORTED_MODULE_2__C__["a"]; });
+
+
+
+
+/* A shit loads of other export goes here */
+
+
+/***/ }),
+/* 5 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__main__ = __webpack_require__(0);
 
 
-console.log(__WEBPACK_IMPORTED_MODULE_0__main__["a" /* A */])
 
+console.log(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__main__["a" /* default */])('A'))
 
 
 /***/ })

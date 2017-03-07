@@ -1,4 +1,4 @@
-import { A } from './main'
+import main from './main'
 
-console.log(A)
 
+console.log(main('A'))

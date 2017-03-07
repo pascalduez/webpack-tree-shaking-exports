@@ -1,8 +1,6 @@
-import { A } from './A'
-import { B } from './B'
-import { C } from './C'
+import * as vectors from './vectors'
 
-export { A }
-export { B }
-export { C }
 
+export default function (name) {
+  return vectors[name]
+}

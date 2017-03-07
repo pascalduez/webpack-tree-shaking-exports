@@ -21,30 +21,47 @@
     return n.d(e, "a", e), e;
   }), (n.o = function(t, n) {
     return Object.prototype.hasOwnProperty.call(t, n);
-  }), (n.p = ""), n((n.s = 4));
+  }), (n.p = ""), n((n.s = 5));
 })([
   function(t, n, e) {
     "use strict";
+    var r = e(4);
+    n.a = function(t) {
+      return r[t];
+    };
+  },
+  function(t, n, e) {
+    "use strict";
+    n.a = "AAA";
+  },
+  function(t, n, e) {
+    "use strict";
+    n.a = "BBB";
+  },
+  function(t, n, e) {
+    "use strict";
+    n.a = "CCC";
+  },
+  function(t, n, e) {
+    "use strict";
+    Object.defineProperty(n, "__esModule", { value: !0 });
     var r = e(1);
-    e(2), e(3);
-    e.d(n, "a", function() {
+    e.d(n, "A", function() {
       return r.a;
     });
-  },
-  function(t, n, e) {
-    "use strict";
-    n.a = "A";
-  },
-  function(t, n, e) {
-    "use strict";
-  },
-  function(t, n, e) {
-    "use strict";
+    var u = e(2);
+    e.d(n, "B", function() {
+      return u.a;
+    });
+    var o = e(3);
+    e.d(n, "C", function() {
+      return o.a;
+    });
   },
   function(t, n, e) {
     "use strict";
     Object.defineProperty(n, "__esModule", { value: !0 });
     var r = e(0);
-    console.log(r.a);
+    console.log(e.i(r.a)("A"));
   }
 ]);
